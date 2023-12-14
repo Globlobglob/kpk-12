@@ -45,7 +45,9 @@ namespace ConsoleApp18
             Computer pk1 = new Computer("Asus", 4, 255);
             pk1.Info();
 
-            Transport tp1=new Transport()
+           Class1 transport = new Class1("Bike",Class1.Color.GreenYellow,25,1002);
+ Console.WriteLine(transport.ToString());
+ Console.ReadLine()
 
         }
     }
